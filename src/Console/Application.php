@@ -12,7 +12,7 @@ class Application
         }
 
         switch ($arguments[1]) {
-            case 'controller':
+            case 'make:controller':
                 $command = new ControllerCommand();
                 $command->run($arguments);
                 break;
