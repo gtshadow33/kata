@@ -51,7 +51,7 @@ proyecto/
 ### Crear un controlador
 
 ```bash
-php kata controller UserController
+php kata make:controller UserController
 ```
 
 Este comando crea un controlador dentro de:
