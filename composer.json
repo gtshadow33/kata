@@ -1,0 +1,17 @@
+{
+    "name": "gts/kata",
+    "description": "CLI para crear y gestionar proyectos PHP de forma rápida y sencilla",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "KATA\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/kata"
+    ]
+}
